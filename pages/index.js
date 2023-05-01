@@ -25,10 +25,8 @@ export default function Home() {
             <h3>Recipes from Gregs DjangoRestAPI</h3>
           </a>
       </Link>
-      <p>These Are recipes fetched from Django RestAPI on fly.io</p>
-      <Image src="/../public/images/apiFetchCode.png" alt="site logo" width={350} height={100} />
-
-      
+      <p>These are recipes fetched from Django RestAPI on fly.io</p>
+      <Image src="/images/apiFetchCode.png" alt="site logo" width={350} height={100} />
     </div>
   )
 }
