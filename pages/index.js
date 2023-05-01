@@ -15,17 +15,17 @@ export default function Home() {
       <h1 className ={styles.title}>Homepage</h1>
       <Link href={'/placeholder-json/users'} >
           <a className={styles.single}>
-            <h3>List of Fake People</h3>
+            <h3>A list of Fake People</h3>
           </a>
       </Link>
-      <p>From https://jsonplaceholder.typicode.com/</p>
+      <p>Fetched from https://jsonplaceholder.typicode.com/</p>
       
       <Link href={'greg-recipes/recipe-list'} >
           <a className={styles.single}>
             <h3>Recipes from Gregs DjangoRestAPI</h3>
           </a>
       </Link>
-      <p>Recipes fetched from Django RestAPI on fly.io</p>
+      <p>These Are recipes fetched from Django RestAPI on fly.io</p>
       <Image src="/../public/images/apiFetchCode.png" alt="site logo" width={350} height={100} />
 
       
