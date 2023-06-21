@@ -14,7 +14,7 @@ const About = () => {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/A63UxsQsEbU" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      </div>
      <div>
-        <p>Recipe list DjangoRestAPI is hosted at <a href="https://gregstull.fly.dev/recipes/">fly.io</a>  </p>
+        <p>Recipe list DjangoRestAPI is hosted at <a href="https://gregprojects.fly.dev/recipes/">fly.io</a>  </p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IXfUGd_A1sc" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      </div>
      </>

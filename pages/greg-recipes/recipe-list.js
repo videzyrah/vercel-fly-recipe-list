@@ -2,7 +2,7 @@ import styles from '../../styles/List.module.css'
 import Link from 'next/link'
 
 export const getStaticProps = async () => {
-  const res = await fetch('http://gregstull.fly.dev/recipes');
+  const res = await fetch('http://gregprojects.fly.dev/recipes');
   const data = await res.json();
 
   return {
